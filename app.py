@@ -43,7 +43,7 @@ region_filter = st.sidebar.multiselect(
 # 3. Category Filter
 category_filter = st.sidebar.multiselect(
     "Select Category",
-    options=df["Category"].unique(),
+    options=df["Category of all applications"].unique(),
     default=df["Category"].unique()
 )
 
